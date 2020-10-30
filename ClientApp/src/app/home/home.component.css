@@ -12,6 +12,8 @@ h5{
   display: inline;
 }
   #numberedList ul li:not(:last-child):after {
+    font-weight: normal;
+    font-style: normal;
     content: ", ";
   }
 .bold3n li:nth-child(3n) {

@@ -17,6 +17,6 @@ h5{
 .bold3n li:nth-child(3n) {
   font-weight: bold;
 }
-.italic2n li:nth-child(2n) {
+.italic2n li:nth-child(2n - 1) {
   font-style: italic;
 }

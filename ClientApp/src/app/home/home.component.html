@@ -1,0 +1,18 @@
+<h5>Question 6</h5>
+<span>
+  Using only front-end technologies, print a list of the numbers from 1 to 100. Every second the list changes its state between A and B as defined below:
+</span>
+<ul>
+  <li>
+    A: every 3rd element is bold
+  </li>
+  <li>
+    B: every odd element is italic
+  </li>
+</ul>
+<h5>List of numbers</h5>
+<div id="numberedList">
+  <ul class={{listStyle}}>
+    <li *ngFor="let num of list_of_numbers">{{num}}</li>
+  </ul>
+</div>

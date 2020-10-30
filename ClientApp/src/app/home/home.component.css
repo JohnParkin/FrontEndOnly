@@ -1,0 +1,22 @@
+ul li {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+
+}
+h5{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#numberedList ul li {
+  display: inline;
+}
+  #numberedList ul li:not(:last-child):after {
+    content: ", ";
+  }
+.bold3n li:nth-child(3n) {
+  font-weight: bold;
+}
+.italic2n li:nth-child(2n) {
+  font-style: italic;
+}

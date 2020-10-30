@@ -2,14 +2,14 @@ ul li {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
-
 }
 h5{
     margin-top:20px;
     margin-bottom:20px;
 }
 #numberedList ul li {
-  display: inline;
+  display: inline-block;
+  width:28px;
 }
   #numberedList ul li:not(:last-child):after {
     font-weight: normal;
